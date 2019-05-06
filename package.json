@@ -14,7 +14,11 @@
     "react",
     "react-navigation"
   ],
-  "author": "Kaloyan Yosifov",
+  "author": {
+    "name": "Kaloyan Yosifov",
+    "email": "kaloqn665@gmail.com",
+    "url": "http://kyosifov.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/KaloyanYosifov/react-navigation-elegant/issues"
