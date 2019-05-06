@@ -2,7 +2,7 @@
   "name": "react-navigation-elegant",
   "version": "0.0.1",
   "description": "Better api for react navigation",
-  "main": "index.js",
+  "main": "src/react-navigation-elegant.js",
   "scripts": {
     "test": "jest"
   },
