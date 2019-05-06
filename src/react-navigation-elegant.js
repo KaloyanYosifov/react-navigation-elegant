@@ -1,5 +1,1 @@
-module.exports = {
-    testing() {
-        console.log('dsfsdf');
-    }
-};
+module.exports = require('./ReactNavigationElegant');
