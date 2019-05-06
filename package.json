@@ -1,0 +1,23 @@
+{
+  "name": "react-navigation-elegant",
+  "version": "0.0.1",
+  "description": "Better api for react navigation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaloyanYosifov/react-navigation-elegant.git"
+  },
+  "keywords": [
+    "react",
+    "react-navigation"
+  ],
+  "author": "Kaloyan Yosifov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaloyanYosifov/react-navigation-elegant/issues"
+  },
+  "homepage": "https://github.com/KaloyanYosifov/react-navigation-elegant#readme"
+}
