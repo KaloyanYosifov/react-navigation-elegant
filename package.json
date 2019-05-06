@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/KaloyanYosifov/react-navigation-elegant/issues"
   },
-  "homepage": "https://github.com/KaloyanYosifov/react-navigation-elegant#readme"
+  "homepage": "https://github.com/KaloyanYosifov/react-navigation-elegant#readme",
+  "dependencies": {
+    "react-navigation": "^3.9.1"
+  }
 }

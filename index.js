@@ -1,1 +1,3 @@
-console.log('Hello World');
+exports.Navigation = function () {
+    console.log('eee');
+};
