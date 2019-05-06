@@ -1,3 +1,5 @@
-exports.Navigation = function () {
-    console.log('eee');
+module.exports = {
+    testing() {
+        console.log('dsfsdf');
+    }
 };
