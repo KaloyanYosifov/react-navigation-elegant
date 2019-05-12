@@ -2,13 +2,22 @@ const ReactNavigation = require('react-navigation');
 
 class ReactNavigationElegant {
     construct() {
-
+        this.stackNavigations = [];
+        this.tabNavigations = [];
     }
 
-    addNavigation() {
-        // TODO
-        // add a navigation handler
-        // with which we can add navigation to an object and then create a function to eject the stack container
+    addNavigation(name, component) {
+        const stackNavigatorOptions = {};
+        stackNavigatorOptions[name] = {
+            screen: component,
+            navigationOptions: {
+                title: 'Heome'
+            }
+        };
+
+        const stackNavigator = ReactNavigation.createStackNavigator(stackNavigatorOptions);
+
+        return ReactNavigation.createAppContainer(stackNavigator);
     }
 };
 
