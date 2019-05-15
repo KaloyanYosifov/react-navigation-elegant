@@ -2,7 +2,7 @@ const ReactNavigation = require('react-navigation');
 const NavigationComponent = require('./builders/NavigationComponent');
 
 class ReactNavigationElegant {
-    construct() {
+    constructor() {
         this.stackNavigations = [];
         this.tabNavigations = [];
     }
@@ -33,6 +33,10 @@ class ReactNavigationElegant {
 
     getStackNavigations() {
         return this.stackNavigations;
+    }
+
+    getTabNavigations() {
+        return this.tabNavigations;
     }
 };
 
