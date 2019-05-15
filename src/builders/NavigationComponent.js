@@ -6,8 +6,7 @@ class NavigationComponent extends AbstractBuilder {
     }
 
     setTitle(title) {
-
-        return this;
+        return this.setNavigationOption('title', title);
     }
 };
 

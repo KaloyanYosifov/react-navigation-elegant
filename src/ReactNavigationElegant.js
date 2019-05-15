@@ -1,4 +1,5 @@
 const ReactNavigation = require('react-navigation');
+const NavigationComponent = require('./builders/NavigationComponent');
 
 class ReactNavigationElegant {
     construct() {
@@ -6,8 +7,32 @@ class ReactNavigationElegant {
         this.tabNavigations = [];
     }
 
-    addNavigation(name, component) {
+    addStackNavigation(name, component) {
+        const navigationComponent = new NavigationComponent(name, component);
 
+        this.stackNavigations.push(navigationComponent);
+
+        return navigationComponent;
+    }
+
+    addTabNavigation(name, component) {
+        const navigationComponent = new NavigationComponent(name, component);
+
+        this.tabNavigations.push(navigationComponent);
+
+        return navigationComponent;
+    }
+
+    createStackNavigator() {
+        return ReactNavigation.createStackNavigator({ ...this.stackNavigations });
+    }
+
+    createTabNavigator() {
+        return ReactNavigation.createTabNavigator({ ...this.stackNavigations });
+    }
+
+    getStackNavigations() {
+        return this.stackNavigations;
     }
 };
 
